@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Background from './pages/Background';
+import { ThemeProvider, styled } from 'styled-components';
+import { darkTheme, lightTheme } from './style/theme';
+import { useState } from 'react';
 
+const Button = styled.button`
+  background: ${(props) => {return props.theme.bgColor}}
+`
 function App() {
+  const [theme, setTheme] = useState(true);
+  const changeMode = () => {
+    setTheme(prev => !prev)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme ? lightTheme : darkTheme}>
+      <Background/>
+      <Button onClick={changeMode}>버튼</Button>
+    </ThemeProvider>
   );
 }
 
