@@ -8,6 +8,9 @@ const ListMemoWrap = styled.div`
     &::-webkit-scrollbar{width:18px; height:4px;}
     &::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.5); border-radius:100px; background-clip:padding-box; border:7px solid transparent;}
     &::-webkit-scrollbar-track{background-color:transparent; border-radius:100px; background-clip:padding-box; border:18px solid transparent;}
+    @media all and (max-width: 500px) {
+        max-height:calc(100% - 14rem);
+    }
 `
 function List(props) {
 
