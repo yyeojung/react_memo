@@ -56,7 +56,7 @@ select::-ms-expand{ display:none; }
 
 input {width:100%; border-radius:1rem; height:3.8rem; padding:1rem;} 
 input::placeholder {color:#9ba2ae;}
-textarea::placeholder {color:#9ba2ae;}
+textarea::placeholder {color:#9ba2ae; font-size:1.4rem;}
 
 textarea::-webkit-scrollbar{width:18px; height:4px;}
 textarea::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.5); border-radius:100px; background-clip:padding-box; border:7px solid transparent;}

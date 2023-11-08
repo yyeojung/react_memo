@@ -17,9 +17,10 @@ const MemoWrap = styled.div`
     top:50%;
     left: 50%;
     transform:translate(-50%, -50%);
-    @media screen and (max-width: 500px) {
+    @media all and (max-width: 500px) {
         max-width:none;
-        height:100vh;
+        height:100%;
+        max-height:100vh;
         border-radius:0;
     }
 `;
