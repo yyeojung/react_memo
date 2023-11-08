@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react_memo/static/css/main.cf8b2249.css",
-    "main.js": "/react_memo/static/js/main.34fddaab.js",
+    "main.css": "/react_memo/static/css/main.257567a0.css",
+    "main.js": "/react_memo/static/js/main.cbe417e4.js",
     "static/js/787.986e6ce5.chunk.js": "/react_memo/static/js/787.986e6ce5.chunk.js",
     "static/media/lightmode.png": "/react_memo/static/media/lightmode.a5126ff3ca961dd8d9df.png",
     "static/media/darkmode.png": "/react_memo/static/media/darkmode.7f9f7e1687d29cc5d764.png",
     "static/media/Allerta-Regular.ttf": "/react_memo/static/media/Allerta-Regular.63c098a35b38af37ce29.ttf",
     "index.html": "/react_memo/index.html",
-    "main.cf8b2249.css.map": "/react_memo/static/css/main.cf8b2249.css.map",
-    "main.34fddaab.js.map": "/react_memo/static/js/main.34fddaab.js.map",
+    "main.257567a0.css.map": "/react_memo/static/css/main.257567a0.css.map",
+    "main.cbe417e4.js.map": "/react_memo/static/js/main.cbe417e4.js.map",
     "787.986e6ce5.chunk.js.map": "/react_memo/static/js/787.986e6ce5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf8b2249.css",
-    "static/js/main.34fddaab.js"
+    "static/css/main.257567a0.css",
+    "static/js/main.cbe417e4.js"
   ]
 }
