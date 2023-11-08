@@ -18,6 +18,9 @@ const Title = styled.input`
     caret-color:${(props) => props.theme.textColor};
     color:${(props) => props.theme.textColor};
     border:.2rem solid #000;
+    @media screen and (max-width: 500px) {
+        font-size:1.6rem;
+    }
 `;
 const MemoContents = styled.textarea`
     background:${(props) => props.theme.memo.bgInput};
@@ -31,6 +34,9 @@ const MemoContents = styled.textarea`
     resize:none;    
     height:28rem;
     line-height:1.5;
+    @media screen and (max-width: 500px) {
+        font-size:1.6rem;
+    }
 `;
 const BtnBox = styled.div`
     display:flex;
