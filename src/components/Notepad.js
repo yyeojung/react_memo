@@ -18,7 +18,7 @@ const MemoWrap = styled.div`
     left: 50%;
     transform:translate(-50%, -50%);
     @media all and (max-width: 500px) {
-        height:calc(75%);
+        height:calc(100% - 10rem);
     }
 `;
 const AddBtnWrap = styled.div`
