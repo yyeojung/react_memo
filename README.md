@@ -3,7 +3,7 @@
 
 # 231108
 ![스크린샷 2023-11-08 160733](https://github.com/yyeojung/react_memo/assets/144653702/5acc55d0-cd7c-4726-96d7-7ad321b28a05)
-![image](https://github.com/yyeojung/react_memo/assets/144653702/332cef58-56d2-446b-8d8f-97517a20304a)
+![스크린샷 2023-11-08 175734](https://github.com/yyeojung/react_memo/assets/144653702/47951cdc-ed43-458d-848a-491d8b6b7215)
 
 메모장 기능 구현
 **page
