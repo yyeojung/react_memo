@@ -10,6 +10,7 @@ const MemoBox = styled.div`
     margin:auto;
     border-radius:1rem;
     box-shadow: .3rem .3rem 0 0 rgba(0, 0, 0, 0.7);
+    margin-bottom:1rem;
 `;
 const Header = styled.h2`
     height:3.8rem;
@@ -41,11 +42,10 @@ function ListMemo() {
 
     return (
         <>
-            {memos.slice().reverse().map((memo,index) => (
+            {memos.slice().reverse().map((memo) => (
                 <MemoBox 
                     key={memo.id} 
                     onClick={() => navigateDetail(memo.id)}
-                    style={{marginTop: index === 0 ? 0 : '1rem'}}
                 >
                     <Header>{memo.title}</Header>
                     <MemoContents>{memo.body}</MemoContents>

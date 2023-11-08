@@ -20,7 +20,6 @@ const MemoWrap = styled.div`
     @media all and (max-width: 500px) {
         max-width:none;
         height:100%;
-        max-height:100vh;
         border-radius:0;
     }
 `;
