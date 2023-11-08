@@ -17,11 +17,6 @@ const MemoWrap = styled.div`
     top:50%;
     left: 50%;
     transform:translate(-50%, -50%);
-    @media all and (max-width: 500px) {
-        max-width:none;
-        min-height:100vh;
-        border-radius:0;
-    }
 `;
 const AddBtnWrap = styled.div`
     margin:2rem 1.6rem 1rem 0;
