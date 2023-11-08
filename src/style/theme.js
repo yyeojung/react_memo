@@ -1,5 +1,9 @@
 import BgLightMode from '../image/lightmode.png';
 import BgDarkMode from '../image/darkmode.png';
+import AddMemoLight from '../image/addMemo.png';
+import AddMemoDark from '../image/addMemoDark.png';
+import backLight from '../image/backLight.png'
+import backDark from '../image/backDark.png'
 
 export const lightTheme = {
     textColor: '#000',
@@ -13,7 +17,9 @@ export const lightTheme = {
     btnColor: {
         save : '#000',
         delete : '#f0eadd'
-    }
+    },
+    addIcon: `${AddMemoLight}`,
+    backIcon:`${backLight}`
 }
 export const darkTheme = {
     textColor: '#fcfcfc',
@@ -27,7 +33,9 @@ export const darkTheme = {
     btnColor: {
         save : '#000',
         delete : '#eaeaea'
-    }
+    },
+    addIcon: `${AddMemoDark}`,
+    backIcon:`${backDark}`
 }
 
 export const theme = {

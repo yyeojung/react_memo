@@ -5,12 +5,15 @@ const BgImg = styled.div`
     background-image: ${(props) => {return props.theme.bgImg}};
     background-position: top center;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
 `
 
-function Background() {
+function Background(props) {
     return (
-        <BgImg/>
+        <>
+            <BgImg/>
+            {props.children}
+        </>
     )
 }
 
