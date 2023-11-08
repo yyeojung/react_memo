@@ -36,7 +36,7 @@ function ListMemo() {
     const navigate = useNavigate();
     const memos = JSON.parse(localStorage.getItem('memos')) || [];
     const navigateDetail = useCallback(
-        (memoId) => navigate(process.env.PUBLIC_URL + '/memo/' + memoId), [navigate]
+        (memoId) => navigate('/memo/' + memoId), [navigate]
     )
 
     return (
