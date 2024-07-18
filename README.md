@@ -1,3 +1,6 @@
+# 배포링크
+https://yyeojung.github.io/react_memo/
+
 # 231105
 - 다크모드 테마 생성
 
